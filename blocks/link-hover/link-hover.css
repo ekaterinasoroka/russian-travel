@@ -1,0 +1,8 @@
+.link-hover {
+  transition: filter 1s linear;
+
+}
+
+.link-hover:hover {
+  filter: opacity(80%);
+}
