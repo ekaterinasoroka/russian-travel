@@ -6,9 +6,3 @@
   margin: 0;
   padding: 0;
 }
-
-@media screen and (max-width: 320px) {
-  .place__website_link {
-    margin-top: 12px;
-  }
-}

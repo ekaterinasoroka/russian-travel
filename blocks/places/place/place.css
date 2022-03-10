@@ -1,6 +1,6 @@
 .place {
   display: grid;
-  column-gap: 38px;
+  column-gap: 40px;
   row-gap: 48px;
   grid-template-areas:
   "title website"
@@ -25,13 +25,16 @@
   }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 600px){
   .place {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    gap: 0;
-    min-height: 1042px;
-    padding-bottom: 50px;
+    display: grid;
+    grid-template-areas:
+    "title"
+    "website"
+    "images"
+    "paragraph1"
+    "paragraph2";
+    grid-template-columns: 1fr;
+    gap: 32px;
+    padding-bottom: 32px;
   }
-}
