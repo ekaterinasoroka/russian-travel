@@ -1,16 +1,11 @@
 .header__lang-link {
   color: #FFF;
-  text-decoration: none;
   font-style: normal;
   font-size: 24px;
   line-height: 1.16;
   font-weight: 400;
   max-width: 29px;
-}
 
-.header__lang-link:first-of-type {
-  margin-right: 14px;
-  text-decoration: underline;
 }
 
 @media screen and (max-width: 320px) {
